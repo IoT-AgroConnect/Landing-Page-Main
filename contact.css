@@ -12,6 +12,9 @@ h1{
     font-weight: bold;
 }
 
+/**
+ * Contact Form Styles
+ */
 #formulario {
     display: flex;
     justify-content: center; /* Alinea el formulario al centro */
