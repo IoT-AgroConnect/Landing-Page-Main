@@ -65,6 +65,7 @@ header{
     font-weight: bold;
 }
 
+/**navbar css**/
 .navbar{
     display: flex;
     list-style-type: none;
@@ -141,7 +142,7 @@ main{
     padding: 7rem 1rem;
 }
 
-/*section home--------------------------------*/
+/*section home styles--------------------------------*/
 .home-section {
     position: relative;
     min-height: 100vh;
@@ -176,7 +177,7 @@ main{
 }
 
 
-/*footer section----------------------------*/
+/**footer css**/
 footer {
     position: fixed;
     bottom: 0;
