@@ -1,31 +1,44 @@
 <!DOCTYPE html>
+<!-- Declaración del tipo de documento HTML5 -->
+
 <html lang="en">
 <head>
+    <!-- Metadatos esenciales para el renderizado y SEO -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="AgroTech ofrece soluciones tecnológicas innovadoras para mejorar la gestión de granjas de cuyes. Nuestra misión es empoderar a los granjeros con herramientas inteligentes y eficientes.">
     <meta name="author" content="AgroTech">
     <meta name="robots" content="index, follow">
+
+    <!-- Título de la pestaña del navegador -->
     <title>AgroConnect</title>
-    <!-- Styles -->
+
+    <!-- Archivos de estilos locales -->
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="features.css">
-    <!-- Icon -->
+
+    <!-- Ícono de la pestaña del navegador -->
     <link rel="icon" href="img/icon.png" type="image/x-icon">
-    <!--fonts-->
+
+    <!-- Carga de fuentes desde Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
-    <!--Recursos de boxicons-->
+
+    <!-- Biblioteca de iconos Boxicons -->
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 </head>
+
 <body>
+    <!-- Encabezado del sitio, contiene logo, menú de navegación y accesos de sesión -->
     <header class="header">
+        <!-- Logo con enlace al inicio -->
         <a href="home.html" class="logo">
             <img src="img/logo-circular.jpg" alt="icon-agroConnect">
             <span>AgroConnect</span>
         </a>
 
+        <!-- Menú de navegación principal -->
         <ul class="navbar">
             <li><a href="home.html" class="btn-nav">Inicio</a></li>
             <li><a href="about-app.html" class="btn-nav">Problemática</a></li>
@@ -34,16 +47,20 @@
             <li><a href="contact.html" class="btn-nav">Contacto</a></li>
         </ul>
 
+        <!-- Área de login/registro y menú móvil -->
         <div class="menu">
             <a href="https://agroconnect-demo-8c7ab.web.app/login" class="usser">Iniciar Sesión</a>
             <a href="https://agroconnect-demo-8c7ab.web.app/registro">Registrarse</a>
+            <!-- Ícono del menú hamburguesa (para pantallas pequeñas) -->
             <div class="bx bx-menu" id="menu-icon"></div>
         </div>
     </header>
 
     <main>
+        <!-- Sección de servicios destacados -->
         <h1 class="title">Nuestros Servicios</h1> 
         <div class="container">
+            <!-- Tarjeta 1: publicación de servicios -->
             <div class="card">
                 <img src="img/funcionalidad-publicacion.png" alt="Funcionalidad-publicacion">
                 <div class="intro">
@@ -52,6 +69,8 @@
                     <a href="https://agroconnect-demo.web.app/login">¡Explora más!</a>
                 </div>
             </div>
+
+            <!-- Tarjeta 2: gestión de criaderos -->
             <div class="card">
                 <img src="img/funcionalidad-gestion.png" alt="Funcionalidad-gestion">
                 <div class="intro">
@@ -60,6 +79,8 @@
                     <a href="https://agroconnect-demo.web.app/login">¡Descubre cómo funciona!</a>
                 </div>
             </div>
+
+            <!-- Tarjeta 3: red de asesoramiento -->
             <div class="card">
                 <img src="img/funcionalidad-asesor.png" alt="Funcionalidad-asesor">
                 <div class="intro">
@@ -70,26 +91,31 @@
             </div>
         </div>
         
+        <!-- Sección de video del producto -->
         <h1 class="title about-the-product">Video About The Product</h1> 
         <div class="about-the-product-title">
             <p>¡Sumérgete en el mundo de AgroConnect en menos de 40 segundos y déjate impresionar!</p>
         </div>
         <div class="video-container">
+            <!-- Video embebido desde YouTube -->
             <iframe src="https://www.youtube.com/embed/PJiVdbOyj1s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div> 
     </main>
 
+    <!-- Pie de página del sitio -->
     <footer>
         <h4 class="footer-text">AgroTech - soluciones eficientes</h4> 
+        <!-- Íconos de redes sociales -->
         <ul class="social-icons">
-            <li> <a href="#" class="fb"><img src="img/facebook.png" alt="fb"></a></li>
-            <li> <a href="#" class="ins"><img src="img/instagram.png" alt="ins"></a></li>
-            <li> <a href="#" class="tw"><img src="img/x.png" alt="tw"></a></li>
-            <li> <a href="#" class="tw"><img src="img/tiktok.png" alt="tw"></a></li>
+            <li><a href="#" class="fb"><img src="img/facebook.png" alt="fb"></a></li>
+            <li><a href="#" class="ins"><img src="img/instagram.png" alt="ins"></a></li>
+            <li><a href="#" class="tw"><img src="img/x.png" alt="tw"></a></li>
+            <li><a href="#" class="tw"><img src="img/tiktok.png" alt="tw"></a></li>
         </ul> 
         <h4 class="footer-credits">© AgroTech 2024 (Open Source UPC)</h4> 
     </footer>
-    <!--Script-->
+
+    <!-- Archivo de script JS principal -->
     <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
