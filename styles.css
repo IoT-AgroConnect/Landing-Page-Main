@@ -65,6 +65,7 @@ header{
     font-weight: bold;
 }
 
+/**navbar css**/
 .navbar{
     display: flex;
     list-style-type: none;
